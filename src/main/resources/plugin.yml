@@ -1,0 +1,8 @@
+name: events
+version: 1.0
+author: Cizetux
+api-version: 1.19
+main: com.github.rushyverse.events.EventsPlugin
+depend:
+  - api
+  - CommandAPI

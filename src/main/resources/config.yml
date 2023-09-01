@@ -1,0 +1,27 @@
+dataProvider:
+  apiSharedMemory: true
+
+rewards:
+  vipMultiplier:
+    xp: 1
+    coins: 1
+  kill:
+    xp: 1
+    coins: 1
+  win:
+    xp: 1
+    coins: 1
+  lose:
+    xp: 1
+    coins: 1
+
+backToHubCommand: hub
+runEventPermission: events.run.event
+
+items:
+  - !<backToHub>
+    material: BARRIER
+    name: hotbar.item.quit.name
+    slot: 8
+    commandOnClick: hub
+    needConfirm: true

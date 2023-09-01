@@ -1,0 +1,30 @@
+maps:
+  -
+    name: Sumo
+    description: event.sumo.description
+    minPlayers: 2
+    maxPlayers: 100
+    icon:
+      material: SLIME_BALL
+    permission: event.sumo.join
+    worldName: event_sumo
+
+  -
+    name: Spleef
+    description: event.spleef.description
+    minPlayers: 2
+    maxPlayers: 20
+    icon:
+      material: SNOWBALL
+    permission: event.spleef.join
+    worldName: event_spleef
+
+  -
+    name: Tntpvp
+    description: event.tntpvp.description
+    minPlayers: 2
+    maxPlayers: 20
+    icon:
+      material: TNT
+    permission: event.redrover.join
+    worldName: event_tntpvp
